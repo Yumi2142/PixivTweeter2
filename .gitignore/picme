@@ -1,0 +1,61 @@
++[Default] 
+
+
+ 
++IMAGE_PATH = SCRIPT_DIR + '/Downloaded_Images' 
+
+
+ 
++RECENT_TWEETS_FILE = SCRIPT_DIR + '/recent_tweets.dat' 
+
+
+ 
++NUM_RECENT_TWEETS = 200   # Number of recent posts to track 
+
+
+ 
++ 
+
+
+ 
++[Credentials] 
+
+
+ 
++CONSUMER_KEY = nwwHzF1z6qOYQ0kkvyWo1w2Bu 
+
+
+ 
++CONSUMER_SECRET = Isy2AKqQnw5a0bilqBuEDrd0wJYCZHgZzc2PwUOAVJWopxGoZK 
+
+
+ 
++ACCESS_TOKEN = 754932736599523328-GEc7P2UDAYurtZjgqdXdwKIfSl2KcUm 
+
+
+ 
++ACCESS_TOKEN_SECRET = 0P9JILInBVSfoHXYTOpEpCkYOoU6Slaz8ntObgFZa5DOQ 
+
+
+ 
++BITLY_TOKEN = 754932736599523328 
+
+
+ 
++ 
+
+
+ 
++[PixivSearch] 
+
+
+ 
++search_tags = ['Key','Kanon','CLANNAD','LittleBusters!','AngelBeats!','AB!','Rewrite','Charlotte'] 
+
+
+ 
++page_lims = [-1]*len(search_tags) 
+
+
+ 
++default_lim = 200 
